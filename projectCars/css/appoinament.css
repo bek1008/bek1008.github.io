@@ -1,0 +1,699 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+
+:root {
+    /* colors */
+    --osn: #ef5050;
+    --bg_red: #f95b5b;
+    --green_75: rgba(99, 190, 25, 0.75);
+    --green_90: rgba(99, 190, 25, 0.90);
+    --gray: #8a8a8a;
+    --gray-light: #dedede;
+    --white: #fefefe;
+    --dark: #222222;
+}
+
+
+body img{
+    cursor: zoom-in;
+}
+
+
+
+
+/*============================ Header starting ... ================================== */
+header {
+
+
+    background: var(--dark);
+}
+
+header .fa-tire {
+
+    font-size: 60px;
+    color: white;
+    margin-left: -10px;
+    margin-right: 20px;
+}
+
+
+header .fa-phone {
+    transform: rotate(90deg);
+    font-size: 30px;
+    color: white;
+
+    margin-top: -20px;
+    margin-right: 10px;
+    margin-left: -60px;
+
+
+}
+
+header h1 {
+    margin-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    margin-bottom: 0;
+    font-size: 30px;
+    color: var(--osn);
+
+}
+
+header h1 span {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: white;
+}
+
+header p {
+    margin-bottom: 20px;
+    color: var(--gray);
+    font-size: 13px;
+
+}
+
+header h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    margin-bottom: 0;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+
+}
+
+header .mt {
+    margin-bottom: 0px;
+    margin-top: -20px;
+
+}
+
+header .ml {
+    margin-left: -50px;
+}
+header .ml a:hover {
+  color: white;
+  cursor: pointer;
+}
+header .icons {
+    cursor: pointer;
+    margin-left: -140px;
+    font-size: 10px;
+}
+
+.fb {
+    background: var(--osn);
+    margin-right: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    color: white;
+    padding: 10px 12px;
+}
+
+.tw {
+    margin-right: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    color: white;
+    padding: 10px;
+}
+
+.gg {
+    margin-right: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    color: white;
+    padding: 10px;
+}
+
+.inst{
+    margin-right: 5px;
+    border: 2px solid white;
+    border-radius: 50%;
+    color: white;
+    padding: 10px;
+}
+
+.inst:hover {
+    background: var(--osn);
+    transition: 500ms;
+}
+
+.gg:hover {
+    background: var(--osn);
+    transition: 500ms;
+}
+
+.tw:hover {
+    background: var(--osn);
+    transition: 500ms;
+}
+
+.fb:hover {
+    background: var(--osn);
+    transition: 0.5ms;
+}
+
+header a {
+    color: white;
+}
+
+
+
+/*============================ Header end ================================== */
+
+/* ==================================== Main starting ... ================================ */
+main {
+    background: var(--dark);
+}
+
+main .jc {
+    text-transform: uppercase;
+    background-color: var(--osn);
+    font-weight: 700;
+    display: flex;
+    text-align: start;
+  
+
+}
+
+main ul li a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    margin-right: 30px;
+    color: white !important;
+}
+
+
+main ul li a:hover {
+    background: var(--bg_red);
+    transition: 500ms;
+
+}
+
+.bw:hover{
+    background: var(--bg_red);
+    text-decoration: none;
+}
+main .fab {
+    font-size: 20px;
+    color: white;
+    margin-left: 20px;
+    margin-right: 5px;
+}
+
+main .tg {
+    color: white;
+    margin-right: 10px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+/* ==================================== Main end ================================ */
+.active_links{
+    background-color: #f95b5b;
+
+    border-radius: 20px;
+}
+.tsh{
+    text-shadow: 10px 10px 10px green;
+}
+/*============================ Section start ================================== */
+section {
+    background: url(../images/04.jpg)center center / cover no-repeat;
+background-attachment: fixed;
+    width: 100%;
+    height: 330px;
+
+}
+
+
+section h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: white;
+    cursor: pointer;
+}
+
+section p {
+
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+}
+
+section .liners::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: white;
+    margin-top: 9px;
+
+
+}
+
+section .liners::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: white;
+    margin-bottom: 9px;
+}
+
+/*============================ Section end ================================== */
+
+
+
+
+
+
+/*==================== article starting ... ===========================*/
+
+article .title p{
+    font-size: 16px;
+    font-weight: 600;
+    font-family:'Open Sans', 'Semibold' ;
+    color: #333333;
+    margin-top: 6%;
+    max-width:75% ;
+    margin-left: 15%;
+}
+
+article .first_info h2{
+    color:black;
+    font-weight: 24x;
+    font-family:'Open Sans';
+    font-weight: bold;
+    display: flex;
+    max-width: 100%;
+  padding: 13px 20px;
+    background: #f5f5f5;
+}
+
+
+article .first_info p{
+    background: var(--osn);
+    padding: 20px 22px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+
+article h3{
+    text-transform: uppercase;
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+    margin-top: 20px;
+   
+}
+
+article h4{
+    text-transform: uppercase;
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+    margin-top: -80px;
+   margin-bottom: 20px;
+}
+
+.rang{
+    position: relative;
+}
+.scrol{
+   
+    
+    -webkit-appearance: none;
+    background: rgb(223, 223, 223);
+    border-radius: 6px;
+    border: none;
+outline: none;
+overflow: hidden;
+    /* box-shadow: inset 0 0 5px red; */
+}
+.scrol::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: var(--osn);
+    cursor: pointer;
+    border: 4px solid white;
+    box-shadow: -407px 0 0 400px var(--osn);
+
+
+}
+article span{
+    color: rgb(241, 0, 0);
+   margin-left: 10px;
+}
+
+article  .izb{
+    margin-top: 10px;
+    width: 100%;
+   margin-bottom: 100px;
+   
+}
+
+article .sumb{
+    background: var(--osn);
+    
+    padding: 10px;
+    border: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+    font-family:'Open Sans', 'Semibold' ;
+  
+
+}
+article .sumb a{
+    color: white;
+}
+/* .del{
+    -webkit-appearance: none;
+    width: 10px;
+    height: 10px;
+    color: white;
+    background: var(--osn);
+    cursor: pointer;
+    border:1px solid gray;
+} */
+
+.typ{
+
+height: 30px;
+padding: 20px;
+}
+
+.dropdown-toggle{
+
+    border: 1px solid rgb(173, 173, 173);
+
+    display: flex;
+   justify-content: space-between;
+ width: 100%;
+ padding: 10px;
+
+}
+.hra{
+    padding: 0;
+    margin: 0;
+color: var(--gray);
+}
+
+.tire{
+  display: flex;
+  
+}
+
+.tire p{
+    font-size: 14px;
+    color:#cececd ;
+   margin-top: -6px;
+    margin-left: 15px;
+}
+
+
+
+
+/* article .dropdown span {
+    text-transform: capitalize;
+    padding: 0px 30px;
+    border: 2px solid rgb(187, 187, 187);
+    opacity: 0.5;
+}
+
+article .dropdown{
+   
+   margin-bottom: -30px;
+   
+} */
+
+
+
+
+
+
+
+
+
+
+/* =================================================================== */
+.pre_footer{
+    margin-top: 100px;
+    background-color: #ef5050;
+    width: 100%;
+    height: auto;
+}
+
+.logotype{
+    padding: 20px 0;
+}
+
+
+
+/*============================================================= FOOTER STARTING... ===========================================================*/
+
+footer{
+    background-color: #1d1d1d;
+    width: 100%;
+    height: auto;
+    color: white;
+}
+
+footer .koleso {
+    margin-bottom: 20px;
+    color: #bebebe;
+    font-size: 13px;
+    width: 150px;
+
+}
+
+footer .fot-inf{
+    margin-bottom: 20px;
+    color: #bebebe;
+    font-size: 13px;
+    max-width: 280px;
+}
+
+
+footer .fa-tire {
+
+    font-size: 60px;
+    color: white;
+    margin-left: -10px;
+    margin-right: 20px;
+}
+footer h1 {
+    margin-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    margin-bottom: 0;
+    font-size: 30px;
+    color: var(--osn);
+
+}
+footer .f_nam {
+    margin-top: 30px;
+   margin-bottom: 10px;
+    font-size: 18px;
+    
+
+}
+
+ footer h1 span {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: white;
+}
+
+
+.lat_news{
+  
+   
+ margin-left: 20px;
+
+    
+    color: white;
+}
+footer .links{
+   
+
+    color: white;
+    margin-bottom: 20px;
+}
+.galery{
+    margin-top: 20px;
+    color: white;
+    height: auto;
+    margin: 20px;
+}
+
+footer .local{
+    display: flex;
+   
+    margin-top: 30px;
+    text-align: center;
+    align-content: center;
+   
+}
+
+footer ul li a{
+    
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 16px;
+    margin: 10px;
+    text-decoration: none !important;
+    
+    
+}
+footer ul li a:hover{
+  
+    color: var(--osn);
+    transition: 500ms;
+   
+
+}
+footer ul li a .active{
+  
+    color: var(--osn);
+  
+}
+
+
+
+
+footer p{
+  
+  
+    font-size:13px ; 
+    color: #bebebe;
+}
+footer p span{
+    font-size:12px ; 
+    color: var(--osn);
+}
+
+footer a{
+    margin-top: 5px;
+    color: #bebebe;
+}
+footer a:hover{
+
+   text-decoration: none!important;
+    color: #bebebe;
+    color: #f95b5b;
+}
+
+footer .links{
+    margin-left: -80px;
+}
+
+footer .galery{
+    margin: 0;
+
+}
+
+
+    
+
+footer .wbg{
+ display: flex;
+
+ align-items: center;
+  cursor: pointer;
+margin-left: -60px;
+background-color: #ef5050;
+    color: white;
+    padding: 11.5px 32px;
+
+
+
+}
+
+
+footer .galcar{
+    margin-top: 20px; 
+    margin-bottom: 20px;
+}
+
+footer .form-control{
+    width: 300px;
+}
+
+.little_cars{
+    cursor: pointer;
+    margin-left: 5px;
+
+}
+
+
+
+.end{
+    width: 100%;
+    height: auto;
+    content: "";
+    display: block;
+    height: 2px;
+    background:#727272;
+margin-bottom: 20px;
+margin-top: 50px;
+}
+@media (max-width: 9999px){
+  
+
+}
+
+
+
+@media (max-width: 1199px){
+    main ul li a {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 12px;
+        margin-right: 20px;
+        color: white !important;
+    }
+   
+
+
+}
+
+
+
+
+@media (min-width:991px){
+   .typed2{
+       margin-bottom: -300px;
+   }
+}
+    
+
+
+
+@media (max-width:576px){
+  
+    section h2{
+        font-size: 30px;
+    }
+    .form-control{
+        max-width: 250px;
+    }
+    }

@@ -1,0 +1,609 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+
+:root {
+    /* colors */
+    --osn: #ef5050;
+    --bg_red: #f95b5b;
+    --green_75: rgba(99, 190, 25, 0.75);
+    --green_90: rgba(99, 190, 25, 0.90);
+    --gray: #8a8a8a;
+    --gray-light: #dedede;
+    --white: #fefefe;
+    --dark: #222222;
+}
+
+
+body img{
+    cursor: pointer;
+}
+
+
+
+
+/*============================ Header starting ... ================================== */
+header {
+
+
+    background: var(--dark);
+}
+
+header .fa-tire {
+
+    font-size: 60px;
+    color: white;
+    margin-left: -10px;
+    margin-right: 20px;
+}
+
+
+header .fa-phone {
+    transform: rotate(90deg);
+    font-size: 30px;
+    color: white;
+
+    margin-top: -20px;
+    margin-right: 10px;
+    margin-left: -60px;
+
+
+}
+
+header h1 {
+    margin-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    margin-bottom: 0;
+    font-size: 30px;
+    color: var(--osn);
+
+}
+
+header h1 span {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: white;
+}
+
+header p {
+    margin-bottom: 20px;
+    color: var(--gray);
+    font-size: 13px;
+
+}
+
+header h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    margin-bottom: 0;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+
+}
+
+header .mt {
+    margin-bottom: 0px;
+    margin-top: -20px;
+
+}
+
+header .ml {
+    margin-left: -50px;
+}
+
+header .icons {
+    cursor: pointer;
+    margin-left: -140px;
+    font-size: 10px;
+}
+
+header .fa-facebook-f {
+    background: var(--osn);
+    margin-right: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    color: white;
+    padding: 10px 12px;
+}
+
+header .fa-twitter {
+    margin-right: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    color: white;
+    padding: 10px;
+}
+
+header .fa-google-plus-g {
+    margin-right: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    color: white;
+    padding: 10px;
+}
+
+header .fa-instagram {
+    margin-right: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    color: white;
+    padding: 10px;
+}
+
+header .fa-instagram:hover {
+    background: var(--osn);
+    transition: 500ms;
+}
+
+header .fa-google-plus-g:hover {
+    background: var(--osn);
+    transition: 500ms;
+}
+.active_links{
+    background-color: #f95b5b;
+
+    border-radius: 20px;
+}
+.tsh{
+    text-shadow: 10px 10px 10px black;
+}
+header .fa-twitter:hover {
+    background: var(--osn);
+    transition: 500ms;
+}
+
+header .fa-facebook-f:hover {
+    background: var(--osn);
+    transition: 0.5ms;
+}
+
+header a {
+    color: white;
+}
+
+
+
+/*============================ Header end ================================== */
+
+/* ==================================== Main starting ... ================================ */
+main {
+    background: var(--dark);
+}
+
+main .jc {
+    text-transform: uppercase;
+    background-color: var(--osn);
+    font-weight: 700;
+    display: flex;
+    text-align: center;
+    align-items: center;
+
+}
+
+main ul li a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    margin-right: 35px;
+    color: white !important;
+}
+
+
+main ul li a:hover {
+    background: var(--bg_red);
+    transition: 500ms;
+
+}
+
+.bw:hover{
+    background: var(--bg_red);
+}
+main .fab {
+    font-size: 20px;
+    color: white;
+    margin-left: 20px;
+    margin-right: 5px;
+}
+
+main .tg {
+    color: white;
+    margin-right: 10px;
+}
+
+/* ==================================== Main end ================================ */
+
+/*============================ Section start ================================== */
+
+section {
+    background: url(../images/service1.jpg)center center / cover no-repeat;
+background-attachment: fixed;
+    width: 100%;
+    height: 330px;
+
+}
+
+
+section h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 50px;
+    text-transform: uppercase;
+  text-shadow: 10px 10px 10px blue;
+    cursor: pointer;
+}
+
+section p {
+
+    font-size: 16px;
+    text-shadow: 10px 10px 10px blue;
+    text-align: center;
+    font-weight: 600;
+}
+
+section .liners::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: var(--dark);
+    margin-top: 9px;
+
+
+}
+
+section .liners::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: var(--dark);
+    margin-bottom: 9px;
+}
+
+
+/*============================ Section end ================================== */
+
+
+
+.slider{
+    max-width: 100%;
+    margin: auto;
+    height: 500px;
+    margin-top: 80px;
+    position: relative;
+}
+ 
+.slider .slider_img{
+position: relative;
+height: 100%;
+}
+.slider .slider_img img{
+   width: 100%;
+height: 100%; 
+position: absolute;
+top: 0;
+left: 0;
+opacity: 0;
+transition: opacity 1.5s;
+}
+
+.slider .slider_img img.active{
+   opacity: 1;
+}
+
+.slider .slider-buttons{
+    position: absolute;
+   bottom: 10%;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    opacity: 0.3;
+    transition: opacity 500ms;
+
+}
+.slider .slider-buttons:hover{
+    opacity: 1;
+}
+.slider .slider-buttons .btn{
+    width: 60px;
+    height: 40px;
+    margin: 0 5px;
+    cursor: pointer;
+    background: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 3px solid transparent;
+    border-radius: 5px;
+    transition: border 500ms;
+    outline: none;
+   display: flex;
+   justify-content: center;
+  
+}
+
+.slider .slider-buttons .btn:hover{
+    border: 3px solid #999999;
+
+}
+
+
+
+
+
+article p{
+    color: #333333;
+    text-align: center;
+display: block;
+margin-left: 15%;
+   max-width:70% ;
+   margin-top: 8%;
+   font-size: 16px;
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 600;
+}
+
+article button{
+    margin: 1%;
+    padding:5px 15px ;
+    text-transform: uppercase;
+    border: none;
+    
+
+   
+}
+article button:hover{
+    background-color: var(--osn);
+    transition: 500ms;
+  
+}
+
+.activee{
+    background-color: var(--osn);
+}
+article a{
+    color: #727272;
+    text-decoration: none;
+
+
+}
+article a:hover{
+    color: #727272;
+    text-decoration: none;
+
+
+}
+
+
+/* =================================================================== */
+.pre_footer{
+    margin-top: 100px;
+    background-color: #ef5050;
+    width: 100%;
+    height: auto;
+}
+
+.logotype{
+    padding: 20px 0;
+}
+
+
+
+/*============================================================= FOOTER STARTING... ===========================================================*/
+
+footer{
+    background-color: #1d1d1d;
+    width: 100%;
+    height: auto;
+    color: white;
+}
+
+footer .koleso {
+    margin-bottom: 20px;
+    color: #bebebe;
+    font-size: 13px;
+    width: 150px;
+
+}
+
+footer .fot-inf{
+    margin-bottom: 20px;
+    color: #bebebe;
+    font-size: 13px;
+    max-width: 280px;
+}
+
+
+footer .fa-tire {
+
+    font-size: 60px;
+    color: white;
+    margin-left: -10px;
+    margin-right: 20px;
+}
+footer h1 {
+    margin-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    margin-bottom: 0;
+    font-size: 30px;
+    color: var(--osn);
+
+}
+footer .f_nam {
+    margin-top: 30px;
+   margin-bottom: 10px;
+    font-size: 18px;
+    
+
+}
+
+ footer h1 span {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: white;
+}
+
+
+.lat_news{
+  
+   
+ margin-left: 20px;
+
+    
+    color: white;
+}
+footer .links{
+   
+
+    color: white;
+    margin-bottom: 20px;
+}
+.galery{
+    margin-top: 20px;
+    color: white;
+    height: auto;
+    margin: 20px;
+}
+
+footer .local{
+    display: flex;
+   
+    margin-top: 30px;
+    text-align: center;
+    align-content: center;
+   
+}
+
+footer ul li a{
+    
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 16px;
+    margin: 10px;
+    text-decoration: none !important;
+    
+    
+}
+footer ul li a:hover{
+  
+    color: var(--osn);
+    transition: 500ms;
+   
+
+}
+footer ul li a .active{
+  
+    color: var(--osn);
+  
+}
+
+
+
+
+footer p{
+  
+  
+    font-size:13px ; 
+    color: #bebebe;
+}
+footer p span{
+    font-size:12px ; 
+    color: var(--osn);
+}
+
+footer a{
+    margin-top: 5px;
+    color: #bebebe;
+}
+footer a:hover{
+
+   text-decoration: none!important;
+    color: #bebebe;
+    color: #f95b5b;
+}
+
+footer .links{
+    margin-left: -80px;
+}
+
+footer .galery{
+    margin: 0;
+
+}
+
+
+    
+
+footer .wbg{
+ display: flex;
+
+ align-items: center;
+  cursor: pointer;
+margin-left: -60px;
+background-color: #ef5050;
+    color: white;
+    padding: 11.5px 32px;
+
+
+
+}
+
+
+footer .galcar{
+    margin-top: 20px; 
+    margin-bottom: 20px;
+}
+
+footer .form-control{
+    width: 300px;
+}
+
+.little_cars{
+    cursor: pointer;
+    margin-left: 5px;
+
+}
+
+
+
+.end{
+    width: 100%;
+    height: auto;
+    content: "";
+    display: block;
+    height: 2px;
+    background:#727272;
+margin-bottom: 20px;
+margin-top: 50px;
+}
+
+
+
+
+@media (max-width: 1199px){
+    main ul li a {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 12px;
+        margin-right: 20px;
+        color: white !important;
+    }
+   
+
+
+}
+
+@media (max-width:576px){
+  
+
+    .form-control{
+        max-width: 250px;
+    }
+    }
